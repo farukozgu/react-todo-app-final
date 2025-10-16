@@ -8,7 +8,7 @@ This project is a clean and functional To-Do list application built during the i
 
 Check out the live working version of the application:
 
-[![Live Demo](https://img.shields.io/badge/LIVE_DEMO-Vercel-000000?style=for-the-badge&logo=vercel)](https://example.com/live-todo)
+[![Live Demo](https://img.shields.io/badge/LIVE_DEMO-Vercel-000000?style=for-the-badge&logo=vercel)](https://react-todo-app-final.vercel.app/)
 
 ---
 
