@@ -1,12 +1,12 @@
-# 📋 Advanced React To-Do Application (Final)
+# 📋 Fundamental React To-Do Application
 
-This is a modern, fully-featured To-Do application built to practice essential and advanced React concepts. The core focus is on professional state management and clean architecture.
+This project is a clean and functional To-Do list application built during the initial phase of a structured React learning plan. The primary goal was to solidify core React fundamentals, component architecture, and advanced UI practices.
 
 ---
 
 ## ✨ Live Demo
 
-Check out the live version:
+Check out the live working version of the application:
 
 [![Live Demo](https://img.shields.io/badge/LIVE_DEMO-Vercel-000000?style=for-the-badge&logo=vercel)](https://example.com/live-todo)
 
@@ -16,26 +16,24 @@ Check out the live version:
 
 A look at the application's interface:
 
-![Application Interface](preview.png)
+![Application Interface Screenshot](preview.png)
 
 ---
 
-## 🚀 Key Features
+## 🚀 Key Features Implemented
 
-* **State Management:** Managed centrally using **`useReducer`** for predictable state changes.
-
-* **Global Theming:** **Context API** implements Dark/Light Mode, preventing **Prop Drilling**.
-
-* **Data Handling:** API integration (JSONPlaceholder) for initial data load and `localStorage` for persistence.
-
-* **Advanced Filtering:** Filter by **Status** (Completed/Pending) and **Category**.
-
-* **Clean Architecture:** Reusable components (`Input.jsx`, `Button.jsx`) and clear code separation.
+* **Core Hook Usage:** Utilizes `useState` and `useEffect` for local state management and data persistence via `localStorage`.
+* **Advanced Filtering:** Tasks can be filtered by **Status** (Completed/Pending) and **Category**.
+* **API Integration:** Fetches initial sample tasks from an external API (JSONPlaceholder) using `useEffect` and `fetch`.
+* **Component Architecture:** Designed with clean, modular components (TaskItem, TaskList) for high maintainability.
+* **User Experience (UX):** Includes form validation, dynamic checkbox completion, date display, and Dark Mode theming (implemented via standard styling).
+* **Design:** Styled using **Tailwind CSS** for a fully responsive and modern look across all devices.
 
 ## 🛠️ Tech Stack
 
-* **React** (with `useState`, `useEffect`, `useReducer`, `useContext`)
+* **React** (Hooks: `useState`, `useEffect`)
 * **Tailwind CSS**
+* **JavaScript (ES6+)**
 * **Git**
 
 ## 📦 Local Setup
@@ -43,6 +41,6 @@ A look at the application's interface:
 1. **Clone & Install:**
 
    ```bash
-   git clone [PASTE YOUR GITHUB REPO URL HERE]
+   git clone https://github.com/farukozgu/react-todo-app-final.git
    cd react-todo-app-final
    npm install
