@@ -16,7 +16,7 @@ Check out the live working version of the application:
 
 A look at the application's interface:
 
-![Application Interface Screenshot](preview.png)
+<img width="907" height="1156" alt="preview" src="https://github.com/user-attachments/assets/d9ca7370-9ec4-487a-9855-c3484ce39b4f" />
 
 ---
 
@@ -24,9 +24,8 @@ A look at the application's interface:
 
 * **Core Hook Usage:** Utilizes `useState` and `useEffect` for local state management and data persistence via `localStorage`.
 * **Advanced Filtering:** Tasks can be filtered by **Status** (Completed/Pending) and **Category**.
-* **API Integration:** Fetches initial sample tasks from an external API (JSONPlaceholder) using `useEffect` and `fetch`.
 * **Component Architecture:** Designed with clean, modular components (TaskItem, TaskList) for high maintainability.
-* **User Experience (UX):** Includes form validation, dynamic checkbox completion, date display, and Dark Mode theming (implemented via standard styling).
+* **User Experience (UX):** Includes form validation, dynamic checkbox completion, date display.
 * **Design:** Styled using **Tailwind CSS** for a fully responsive and modern look across all devices.
 
 ## 🛠️ Tech Stack
