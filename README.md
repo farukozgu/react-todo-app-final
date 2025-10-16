@@ -1,6 +1,6 @@
 # 📋 React To-Do Application
 
-This project is a clean and functional To-Do list application built during the initial phase of a structured React learning plan. The primary goal was to solidify core React fundamentals, component architecture, and advanced UI practices.
+This project is a clean and functional To-Do list application built during the initial phase of a structured React pratice plan. The primary goal was to solidify core React fundamentals, component architecture, and advanced UI practices.
 
 ---
 
